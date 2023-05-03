@@ -36,6 +36,8 @@ shortTitle: 'Create a {% data variables.product.pat_generic %}'
 
 ### Types of {% data variables.product.pat_generic %}s
 
+{% data reusables.package_registry.packages-classic-pat-only %}
+
 {% data variables.product.company_short %} currently supports two types of {% data variables.product.pat_generic %}s: {% data variables.product.pat_v2 %}s and {% data variables.product.pat_v1_plural %}. {% data variables.product.company_short %} recommends that you use {% data variables.product.pat_v2 %}s instead of {% data variables.product.pat_v1_plural %} whenever possible.
 
 {% ifversion pat-v2 %}
